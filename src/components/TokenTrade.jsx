@@ -1,5 +1,5 @@
 import React from "react"
-import {Image, Row, Col} from "react-bootstrap";
+import {Image, Col} from "react-bootstrap";
 
 export default function TokenTrade() {
 

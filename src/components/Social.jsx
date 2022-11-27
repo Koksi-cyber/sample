@@ -26,7 +26,7 @@ export default function Social(){
             {content.map(item=>{
                 return <div className="bg-light mt-3 rounded p-3">
                     <h3 className="text-start">{item.title}</h3>
-                    <div className={item.text == "Coming soon" ? "p-5 text-center" : "p-2 d-flex justify-content-between"}>
+                    <div className={item.text === "Coming soon" ? "p-5 text-center" : "p-2 d-flex justify-content-between"}>
                         <span>{item.text}</span>
                         <span>{item.date && item.date}</span>
                     </div>
